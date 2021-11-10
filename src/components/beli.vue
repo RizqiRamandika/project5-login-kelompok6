@@ -523,7 +523,8 @@
             Cicil24Motor9
           }}</span>
           <span v-else-if="method === 'Cash'">{{ jenis.motor9 }}</span>
-        </span>
+        </span><br>
+        Pesanan Anda Akan Segera Diantar
       </h1>
     </div>
   </div>

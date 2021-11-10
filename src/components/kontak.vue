@@ -98,6 +98,7 @@
   width: 420px;
   border-right: 2px solid #333;
 }
+
 .p2 {
   width: 420px;
   margin-left: 30px;
