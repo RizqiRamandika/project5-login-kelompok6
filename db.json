@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "namaMotor": "GSX-R150",
+      "cc": "147,3",
+      "tahunProduksi": "2015",
+      "gambar": "https://suzukicdn.net/uploads/motorcycle/Mask_Group3.png",
+      "harga": "Rp. 33.500.000"
+    },
+    {
+      "namaMotor": "GSX-S150",
+      "cc": "147,3",
+      "tahunProduksi": "2016",
+      "gambar": "https://suzukicdn.net/uploads/motorcycle/gsxs-thumb.jpg",
+      "harga": "Rp. 29.800.000",
+      "id": 1
+    },
+    {
+      "namaMotor": "NEX II",
+      "cc": "113",
+      "tahunProduksi": "2017",
+      "gambar": "https://suzukicdn.net/uploads/motorcycle/next_2_abu.png",
+      "harga": "17.500.000",
+      "id": 2
+    },
+    {
+      "namaMotor": "ADDRESS FI",
+      "cc": "113",
+      "tahunProduksi": "2015",
+      "gambar": "https://suzukicdn.net/uploads/motorcycle/tamnail_adress1.png",
+      "harga": "18.325.000",
+      "id": 3
+    },
+    {
+      "namaMotor": "SATRIA F150",
+      "cc": "147,3",
+      "tahunProduksi": "2016",
+      "gambar": "https://suzukicdn.net/uploads/motorcycle/tamnail_satria11.png",
+      "harga": "26.760.000",
+      "id": 4
+    }
+  ]
+}
