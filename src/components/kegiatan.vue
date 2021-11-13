@@ -3,6 +3,7 @@
     <h1 style="text-align: center; color: white">
       Data Kegiatan Pengabdian Masyarakat
     </h1>
+    <br />
     <table>
       <tr>
         <th style="width: 80px"><h3>Tahun</h3></th>
@@ -126,9 +127,10 @@
 
 <style scoped>
 #app {
-  padding: 30px;
   background-color: #333;
-  margin-top: 20px;
+  height: 1072px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 table {

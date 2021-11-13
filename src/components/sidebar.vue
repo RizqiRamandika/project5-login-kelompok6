@@ -1,23 +1,32 @@
 <template>
   <div>
-    <div class="topnav">
-      <a href="/homeUser">Home</a>
-      <a href="/infoUser">Info Motor</a>
-      <a href="/beli">Beli</a>
-      <a href="/kontak">Kontak</a>
-      <a href="/kegiatan">Kegiatan</a>
-      <a style="margin-left: 830px" href="/login"
-        ><i class="fas fa-sign-in-alt"></i> Login</a
-      >
+    <div class="navbar">
+      <h3 class="admin">Dashboard Admin</h3>
+    </div>
+    <div class="sidebar">
+      <div class="nav"></div>
+      <a href="/infoMotor"
+        ><button class="btn">
+          <i style="margin-right: 5px" class="fa fa-list"></i><br />info</button
+        ><br
+      /></a>
+      <a href="/beliAdmin"
+        ><button class="btn">
+          <i style="margin-right: 5px" class="fas fa-shopping-cart">
+            <br />
+            beli</i
+          ></button
+        ><br
+      /></a>
+      <a href="/peduli"
+        ><button class="btnn">
+          <i style="margin-right: 5px" class="fas fa-hand-holding-medical"></i
+          ><br />care</button
+        ><br
+      /></a>
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  name: "navbar",
-};
-</script>
 
 <style>
 * {
@@ -39,6 +48,13 @@ body {
   background: #3a3a3aff;
   float: left;
 }
+/*.wrapper {
+ width: 1270px;
+ height: 549px;
+ background: #E7E7E7FF;
+ float: left;
+ margin:5px;
+}*/
 .box1 {
   width: 250px;
   height: 150px;
@@ -244,8 +260,5 @@ body {
   color: white;
   font-weight: bold;
   box-shadow: 2px 2px 3px grey;
-}
-* {
-  box-sizing: border-box;
 }
 </style>

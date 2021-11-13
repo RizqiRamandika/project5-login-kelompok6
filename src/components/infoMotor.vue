@@ -1,115 +1,148 @@
 <template>
-  <div class="app">
-    <h1 style="text-align: center">SELAMAT DATANG DI PERUSAHAAN KAMI...</h1>
-    <img
-      src="https://www.freepnglogos.com/uploads/yamaha-png-logo/yamaha-png-logo-hd-13.png"
-      width="200px"
-      height="200px"
-      style="margin-left: 520px"
-    />
-    <div class="pr">
-      <div class="border1 row">
-        <h1>Form Info Motor</h1>
+  <div>
+    <div class="navbar">
+      <h3 class="admin">Dashboard Admin</h3>
+    </div>
+    <div class="sidebar">
+      <div class="nav"></div>
+      <a href="/infoMotor"
+        ><button class="btn">
+          <i style="margin-right: 5px" class="fa fa-list"></i><br />info</button
+        ><br
+      /></a>
+      <a href="/beliAdmin"
+        ><button class="btn">
+          <i style="margin-right: 5px" class="fas fa-shopping-cart">
+            <br />
+            beli</i
+          ></button
+        ><br
+      /></a>
+      <a href="/peduli"
+        ><button class="btnn">
+          <i style="margin-right: 5px" class="fas fa-hand-holding-medical"></i
+          ><br />care</button
+        ><br /></a
+      >\
+      <a href="/login"
+        ><button class="btnn">
+          <i style="margin-right: 5px" class="fas fa-sign-out-alt"></i
+          ><br />Logout</button
+        ><br
+      /></a>
+    </div>
+    <div class="app">
+      <h1 style="text-align: center">SELAMAT DATANG DI PERUSAHAAN KAMI...</h1>
+      <img
+        src="https://www.freepnglogos.com/uploads/yamaha-png-logo/yamaha-png-logo-hd-13.png"
+        width="200px"
+        height="200px"
+        style="margin-left: 520px"
+      />
+      <div class="pr">
+        <div class="border1 row">
+          <h1>Form Info Motor</h1>
 
-        <form @submit.prevent="add">
-          <input type="hidden" v-model="form.id" />
-          <label for=""><b> Nama Motor : </b></label><br />
-          <input
-            type="text"
-            v-model="form.namaMotor"
-            placeholder="Masukkan Nama Motor"
-          /><br /><br />
-          <label for=""><b> CC : </b></label><br />
-          <input
-            type="text"
-            v-model="form.cc"
-            placeholder="Masukkan CC"
-          /><br /><br />
-          <label for=""><b> Tahun Produksi : </b></label><br />
-          <input
-            type="text"
-            v-model="form.tahunProduksi"
-            placeholder="Masukkan Tahun Produksi"
-          /><br /><br />
-          <label for=""><b> Gambar : </b></label><br />
-          <input
-            type="text"
-            v-model="form.gambar"
-            placeholder="Masukkan Sebuah Link Gambar"
-          /><br /><br />
-          <label for=""><b> Harga : </b></label><br />
-          <input
-            type="text"
-            v-model="form.harga"
-            placeholder="Masukkan Harga"
-          /><br /><br />
-          <button type="submit" v-show="!updateSubmit" style="margin: auto">
-            <b> Add </b>
-          </button>
-          <!-- jika tidak update maka tombol update tidak muncul -->
-          <button type="button" v-show="updateSubmit" @click="update(form)">
-            <b> Update </b>
-          </button>
-          <!-- jika tombol edit di klik maka tombol add akan berubah menjadi update -->
-        </form>
-        <br />
-      </div>
+          <form @submit.prevent="add">
+            <input type="hidden" v-model="form.id" />
+            <label for=""><b> Nama Motor : </b></label><br />
+            <input
+              type="text"
+              v-model="form.namaMotor"
+              placeholder="Masukkan Nama Motor"
+            /><br /><br />
+            <label for=""><b> CC : </b></label><br />
+            <input
+              type="text"
+              v-model="form.cc"
+              placeholder="Masukkan CC"
+            /><br /><br />
+            <label for=""><b> Tahun Produksi : </b></label><br />
+            <input
+              type="text"
+              v-model="form.tahunProduksi"
+              placeholder="Masukkan Tahun Produksi"
+            /><br /><br />
+            <label for=""><b> Gambar : </b></label><br />
+            <input
+              type="text"
+              v-model="form.gambar"
+              placeholder="Masukkan Sebuah Link Gambar"
+            /><br /><br />
+            <label for=""><b> Harga : </b></label><br />
+            <input
+              type="text"
+              v-model="form.harga"
+              placeholder="Masukkan Harga"
+            /><br /><br />
+            <button type="submit" v-show="!updateSubmit" style="margin: auto">
+              <b> Add </b>
+            </button>
+            <!-- jika tidak update maka tombol update tidak muncul -->
+            <button type="button" v-show="updateSubmit" @click="update(form)">
+              <b> Update </b>
+            </button>
+            <!-- jika tombol edit di klik maka tombol add akan berubah menjadi update -->
+          </form>
+          <br />
+        </div>
 
-      <div class="border2">
-        <h1>Tabel Daftar Motor</h1>
-        <table>
-          <thead>
-            <tr>
-              <th>No</th>
-              <th>Nama Motor</th>
-              <th>CC</th>
-              <th>Tahun Produksi</th>
-              <th>Gambar</th>
-              <th>Harga</th>
-              <th>Aksi</th>
-            </tr>
-          </thead>
-          <tbody v-for="user in users" :key="user.id">
-            <tr>
-              <td>{{ user.id + 1 }}</td>
-              <td>{{ user.namaMotor }}</td>
-              <td>{{ user.cc }}</td>
-              <td>{{ user.tahunProduksi }}</td>
-              <td>
-                <img :src="user.gambar" width="140px" height="100px" />
-              </td>
-              <td>Rp {{ user.harga }}</td>
-              <td>
-                <button
-                  style="
-                    background-color: green;
-                    color: white;
-                    width: 60px;
-                    padding: 5px;
-                    border: 1px solid white;
-                  "
-                  @click="edit(user)"
-                >
-                  Edit</button
-                ><br />
-                <button
-                  style="
-                    background-color: red;
-                    color: white;
-                    width: 60px;
-                    padding: 5px;
-                    border: 1px solid white;
-                  "
-                  @click="del(user)"
-                >
-                  Delete
-                </button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <p>Showing 1 to 1 of 1 entries</p>
+        <div class="border2">
+          <h1>Tabel Daftar Motor</h1>
+          <table>
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Nama Motor</th>
+                <th>CC</th>
+                <th>Tahun Produksi</th>
+                <th>Gambar</th>
+                <th>Harga</th>
+                <th>Aksi</th>
+              </tr>
+            </thead>
+            <tbody v-for="user in users" :key="user.id">
+              <tr>
+                <td>{{ user.id + 1 }}</td>
+                <td>{{ user.namaMotor }}</td>
+                <td>{{ user.cc }}</td>
+                <td>{{ user.tahunProduksi }}</td>
+                <td>
+                  <img :src="user.gambar" width="140px" height="100px" />
+                </td>
+                <td>Rp {{ user.harga }}</td>
+                <td>
+                  <button
+                    style="
+                      background-color: green;
+                      color: white;
+                      width: 60px;
+                      padding: 5px;
+                      border: 1px solid white;
+                    "
+                    @click="edit(user)"
+                  >
+                    Edit</button
+                  ><br />
+                  <button
+                    style="
+                      background-color: red;
+                      color: white;
+                      width: 60px;
+                      padding: 5px;
+                      border: 1px solid white;
+                    "
+                    @click="del(user)"
+                  >
+                    Delete
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <br />
+          <p>Showing 1 to 1 of 1 entries</p>
+        </div>
       </div>
     </div>
   </div>
@@ -204,10 +237,9 @@ export default {
 <style scoped>
 .app {
   border: 1px solid black none;
-  background-color: #333;
+  background-color: rgb(97, 97, 97);
+  height: 1073px;
   color: white;
-  padding: 10px;
-  margin-top: 20px;
 }
 .pr {
   display: flex;

@@ -1,5 +1,5 @@
 <template>
-  <div class="aa" style="background-color: white">
+  <div style="background-color: white">
     <div class="row">
       <div class="leftcolumn">
         <div class="card">
@@ -9,10 +9,10 @@
           </p>
           <img src="logo.png" width="940px" height="400px" />
           <p>
-            PT YAMASA INDONESIA didirikan pada tahun 2021. Bisnis utama kami
-            adalah berbisnis sepeda motor. Kami mempunyai dua pabrik di Semarang
-            dan dua di Jakarta, dan telah mendistribusikan produk ke seluruh
-            wilayah Indonesia dan juga mengekspor ke luar negeri.
+            PT YAMASA INDONESIA didirikan pada tahun 2021. Bisnis utama
+            kami adalah berbisnis sepeda motor. Kami mempunyai dua pabrik di
+            Semarang dan dua di Jakarta, dan telah mendistribusikan produk ke
+            seluruh wilayah Indonesia dan juga mengekspor ke luar negeri.
             <br /><br />
             Brand kami adalah KLX, MotorGP, dan Ninja H2, kami akan terus
             membuat motor-motor yang orisinil dan pertama di Indonesia, serta
@@ -223,9 +223,5 @@ body {
     float: none;
     width: 100%;
   }
-}
-.aa {
-  margin-right: 10px;
-  margin-left: 80px;
 }
 </style>

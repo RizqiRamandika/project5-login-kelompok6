@@ -19,10 +19,12 @@
     <div class="p2">
       <h1>NEW BUSINESS</h1>
       <p>678.449.2004 Email IQ</p>
+      <br />
       <h1>MEDIA RELATIONS</h1>
-      <P>John Woodbridge 678.449.2010 john.woodbridge@yamasa.com</P>
+      <P>John Woodbridge 678.449.2010 john.woodbridge@yamasa.com</P><br />
       <h1>PARTNERSHIPS</h1>
       <p>Tony Accurso partners@yamasa.com</p>
+      <br />
       <h1>CAREERS</h1>
       <p>Ragan Cellams work@yamasa.com</p>
     </div>
@@ -88,10 +90,12 @@
 
 <style scoped>
 .app {
-  border: 15px solid #333;
-  display: flex;
-  padding: 40px;
   margin-top: 20px;
+  margin-left: 10px;
+  padding-left: 10px;
+  margin-right: 10px;
+  border: 15px solid rgb(102, 102, 102);
+  display: flex;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .p1 {

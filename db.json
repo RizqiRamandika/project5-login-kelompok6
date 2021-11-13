@@ -1,44 +1,164 @@
 {
   "users": [
     {
-      "id": 0,
       "namaMotor": "GSX-R150",
       "cc": "147,3",
-      "tahunProduksi": "2015",
+      "tahunProduksi": "2021",
       "gambar": "https://suzukicdn.net/uploads/motorcycle/Mask_Group3.png",
-      "harga": "Rp. 33.500.000"
+      "slogan": "Berani melaju cepat!",
+      "deskripsi": "Suzuki GSX-R 150 adalah ikon dan penerus tradisi motor sport performa tinggi yang mengusung kecanggihan teknologi. Suzuki menerapkan prinsip filosofi terbaik ketika mengembangkan GSX-R sejak pertama kali, dan masih dipertahankan setiap Suzuki mengembangkan dan menciptakan model generasi berikutnya.",
+      "harga": "33.500.000",
+      "dp": "10.050.000",
+      "id": 0
     },
     {
       "namaMotor": "GSX-S150",
       "cc": "147,3",
-      "tahunProduksi": "2016",
+      "tahunProduksi": "2019",
       "gambar": "https://suzukicdn.net/uploads/motorcycle/gsxs-thumb.jpg",
-      "harga": "Rp. 29.800.000",
+      "slogan": "Alter ego bagi pribadi yang suka tampil stylish setiap hari",
+      "deskripsi": "Suzuki memberikan pilihan bagi pengendara yang mengutamakan performa serta ergonomi yang baik. Motor yang dapat menggunakan setiap hari di beragam situasi atau jarak, namun tetap menarik dan mudah untuk dikendalikan.",
+      "harga": "29.800.000",
+      "dp": "8.940.000",
       "id": 1
+    },
+    {
+      "namaMotor": "GSX150 BANDIT",
+      "cc": "147,3",
+      "tahunProduksi": "2020",
+      "gambar": "https://suzukicdn.net/uploads/motorcycle/next_2_abu.png",
+      "slogan": "Kenyamanan baik sendiri maupun berboncengan",
+      "deskripsi": "GSX150 Bandit dirancang untuk memberikan kenyamanan berkendara, baik sendiri maupun berboncengan. Suzuki menerapkan karakteristik GSX series yang memiliki kinerja mesin yang superior. Dengan desain yang berkarakter, GSX150 Bandit cocok untuk aktivitas sehari-hari atau touring bersama teman.",
+      "harga": "27.300.000",
+      "dp": "8.190.000",
+      "id": 2
+    },
+    {
+      "namaMotor": "SATRIA F150",
+      "cc": "147,3",
+      "tahunProduksi": "2021",
+      "gambar": "https://suzukicdn.net/uploads/motorcycle/tamnail_satria11.png",
+      "slogan": "Futuristik, Sporty, Agresif Menaklukan Tantangan",
+      "deskripsi": "Satria F150 kini tampil makin futuristik dan sporty dengan desain body yang aerodinamis. Semakin agresif menaklukan semua tantangan di jalan. Menggunakan mesin baru yang mengadaptasi teknologi MotoGP Suzuki Satria F150 siap kalahkan semua lawan dengan performa maksimal dan tercepat di kelas underbone 150cc.",
+      "harga": "26.760.000",
+      "dp": "8.028.000",
+      "id": 3
     },
     {
       "namaMotor": "NEX II",
       "cc": "113",
-      "tahunProduksi": "2017",
+      "tahunProduksi": "2020",
       "gambar": "https://suzukicdn.net/uploads/motorcycle/next_2_abu.png",
+      "slogan": "Motor Matic Stylish, Modern, dan Futuristik",
+      "deskripsi": "NEX II adalah motor matic terbaru yang stylish dengan desain yang modern dan futuristik. NEX II mengusung mesin 115cc FI dengan teknologi SEP (Suzuki Eco Performance) yang memberikan keuntungan konsumsi bahan bakar. NEX II juga memiliki fitur Suzuki Easy Start System yang memudahkan dalam menyalakan mesin.",
       "harga": "17.500.000",
-      "id": 2
+      "dp": "5.250.000",
+      "id": 4
+    },
+    {
+      "namaMotor": "NEX CROSSOVER",
+      "cc": "113",
+      "tahunProduksi": "2019",
+      "gambar": "https://suzukicdn.net/uploads/motorcycle/tamnail.png",
+      "slogan": "Dengan naked handle bar yang semakin sporty untuk teman berkendara",
+      "deskripsi": "NEX Crossover adalah motor matic terbaru dengan tampilan fresh pada handle bar dan seat cover, dan tetap mempertahankan teknologi SEP (Suzuki Eco Performance) pada mesin 115cc FI. NEX Crossover juga dilengkapi dengan Digital Speedometer yang membuat tampilan makin futuristik dan memberikan kemudahan dalam membaca informasi.",
+      "harga": "19.000.000",
+      "dp": "5.700.000",
+      "id": 5
     },
     {
       "namaMotor": "ADDRESS FI",
       "cc": "113",
       "tahunProduksi": "2015",
       "gambar": "https://suzukicdn.net/uploads/motorcycle/tamnail_adress1.png",
+      "slogan": "Bebas berkendara, Dinamis bergaya",
+      "deskripsi": "uzuki Address kini hadir dengan warna dan stripping baru!",
       "harga": "18.325.000",
-      "id": 3
+      "dp": "5.497.500",
+      "id": 6
     },
     {
-      "namaMotor": "SATRIA F150",
-      "cc": "147,3",
+      "namaMotor": "ADDRESS PLAYFUL",
+      "cc": "113",
       "tahunProduksi": "2016",
+      "gambar": "https://suzukicdn.net/uploads/motorcycle/playful_thumb.jpg",
+      "slogan": "Kini dengan Pilihan Warna Sesuai dengan Karaktermu",
+      "deskripsi": "Model baru ini merupakan pilihan tambahan dari Suzuki Address FI yang telah eksis sebelumnya. Skutik multifungsi bermesin 113cc yang irit dan bertenaga tersebut kini dilengkapi dengan 10 pilihan warna aksesoris panel bodi menarik dan penuh gaya yang dapat disesuaikan dengan jiwa dan karakter muda-mudi masa kini, antara lain Stronger Red, Aura Yellow, Fresh Green, Macho Bright Blue, Majestic Gold, Dark Grey, Brilliant White, Hyper Pink, Luminous Orange dan Ice Silver. It’s So Me !",
+      "harga": "18.800.000",
+      "dp": "5.640.000",
+      "id": 7
+    },
+    {
+      "namaMotor": "SMASH FI",
+      "cc": "113",
+      "tahunProduksi": "2014",
+      "gambar": "https://suzukicdn.net/uploads/motorcycle/smash-thumb.png",
+      "slogan": "Motor Bebek yang Gesit, Tangguh, dan Irit",
+      "deskripsi": "Suzuki kembali melahirkan New Smash FI dengan mempertahankan keunggulan performa, ketangguhan serta konsumsi bahan bakar yang irit dengan tagline baru ‘Tarikannya Dahsyat!’.",
+      "harga": "16.100.000",
+      "dp": "4.830.000",
+      "id": 8
+    }
+  ],
+  "agenda": [
+    {
+      "tahun": "2018",
+      "judul": "PT YAMASA telah memberikan berbagai bantuan untuk masyarakat melalui berbagai institusi seperti BNPB, Kementerian Kesehatan RI, PMI, RSCM. Bantuan diantaranya berupa unit kendaraan, ruang ICU, ruang isolasi high care unit, alat uji tes, APD, masker, paket sembako hingga ventilator.",
+      "sumber": "Institusi",
+      "prodi": "Akuntansi D3",
+      "id": 0
+    },
+    {
+      "tahun": "2019",
+      "judul": "PT YAMASA mendistribusikan 1.100 paket bantuan kepada veteran perjuangan serta keluarga yang sedang menjalankan isolasi mandiri di wilayah DKI Jakarta dan Jawa Barat serta wilayah mitra binaan.",
+      "sumber": "Institusi",
+      "prodi": "Akuntansi D3",
+      "id": 1
+    },
+    {
+      "tahun": "2020",
+      "judul": "PT YAMASA menyerahkan donasi sebanyak 1 juta masker untuk para tenaga medis yang disalurkan melalui beberapa institusi.",
+      "sumber": "Institusi",
+      "prodi": "Akuntansi D3",
+      "id": 2
+    },
+    {
+      "tahun": "2021",
+      "judul": "PT YAMASA menyalurkan 1.100 Alat Pelindung Diri (APD) bagi tenaga medis wilayah Karawang serta bantuan 42 hewan qurban saat menjelang Idul Adha  untuk 8 area wilayah DKI Jakarta dan 13 area di Jawa Barat.",
+      "sumber": "Institusi",
+      "prodi": "Akuntansi D3",
+      "id": 3
+    }
+  ],
+  "usersLogin": [
+    {
+      "id": 1,
+      "username": "risqi",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "username": "helmi",
+      "password": "1234"
+    },
+    {
+      "id": 1,
+      "username": "mala",
+      "password": "12345"
+    }
+  ],
+  "beli": [
+    {
+      "motor": "ADDRESS PLAYFUL",
+      "method": "Cash",
+      "gambar": "https://suzukicdn.net/uploads/motorcycle/playful_thumb.jpg",
+      "id": 0
+    },
+    {
+      "motor": "SATRIA F150",
+      "method": "Kredit 24 Bulan",
       "gambar": "https://suzukicdn.net/uploads/motorcycle/tamnail_satria11.png",
-      "harga": "26.760.000",
-      "id": 4
+      "id": 1
     }
   ]
 }
