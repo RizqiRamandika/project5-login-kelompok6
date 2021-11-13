@@ -47,30 +47,35 @@
             <input type="hidden" v-model="form.id" />
             <label for=""><b> Nama Motor : </b></label><br />
             <input
+              required
               type="text"
               v-model="form.namaMotor"
               placeholder="Masukkan Nama Motor"
             /><br /><br />
             <label for=""><b> CC : </b></label><br />
             <input
+              required
               type="text"
               v-model="form.cc"
               placeholder="Masukkan CC"
             /><br /><br />
             <label for=""><b> Tahun Produksi : </b></label><br />
             <input
+              required
               type="text"
               v-model="form.tahunProduksi"
               placeholder="Masukkan Tahun Produksi"
             /><br /><br />
             <label for=""><b> Gambar : </b></label><br />
             <input
+              required
               type="text"
               v-model="form.gambar"
               placeholder="Masukkan Sebuah Link Gambar"
             /><br /><br />
             <label for=""><b> Harga : </b></label><br />
             <input
+              required
               type="text"
               v-model="form.harga"
               placeholder="Masukkan Harga"

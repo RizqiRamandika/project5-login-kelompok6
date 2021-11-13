@@ -39,6 +39,7 @@
         <input type="hidden" v-model="form.id" />
         <label for="">Tahun :</label><br />
         <input
+          required
           type="text"
           v-model="form.tahun"
           placeholder="Masukkan tahun"
@@ -51,12 +52,14 @@
         ><br /><br />
         <label for="">Sumber :</label><br />
         <input
+          required
           type="text"
           v-model="form.sumber"
           placeholder="Masukkan sumber"
         /><br /><br />
         <label for="">Prodi :</label><br />
         <input
+          required
           type="text"
           v-model="form.prodi"
           placeholder="Masukkan prodi"

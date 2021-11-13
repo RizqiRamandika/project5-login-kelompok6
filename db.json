@@ -12,17 +12,6 @@
       "id": 0
     },
     {
-      "namaMotor": "GSX-S150",
-      "cc": "147,3",
-      "tahunProduksi": "2019",
-      "gambar": "https://suzukicdn.net/uploads/motorcycle/gsxs-thumb.jpg",
-      "slogan": "Alter ego bagi pribadi yang suka tampil stylish setiap hari",
-      "deskripsi": "Suzuki memberikan pilihan bagi pengendara yang mengutamakan performa serta ergonomi yang baik. Motor yang dapat menggunakan setiap hari di beragam situasi atau jarak, namun tetap menarik dan mudah untuk dikendalikan.",
-      "harga": "29.800.000",
-      "dp": "8.940.000",
-      "id": 1
-    },
-    {
       "namaMotor": "GSX150 BANDIT",
       "cc": "147,3",
       "tahunProduksi": "2020",
@@ -76,28 +65,6 @@
       "harga": "18.325.000",
       "dp": "5.497.500",
       "id": 6
-    },
-    {
-      "namaMotor": "ADDRESS PLAYFUL",
-      "cc": "113",
-      "tahunProduksi": "2016",
-      "gambar": "https://suzukicdn.net/uploads/motorcycle/playful_thumb.jpg",
-      "slogan": "Kini dengan Pilihan Warna Sesuai dengan Karaktermu",
-      "deskripsi": "Model baru ini merupakan pilihan tambahan dari Suzuki Address FI yang telah eksis sebelumnya. Skutik multifungsi bermesin 113cc yang irit dan bertenaga tersebut kini dilengkapi dengan 10 pilihan warna aksesoris panel bodi menarik dan penuh gaya yang dapat disesuaikan dengan jiwa dan karakter muda-mudi masa kini, antara lain Stronger Red, Aura Yellow, Fresh Green, Macho Bright Blue, Majestic Gold, Dark Grey, Brilliant White, Hyper Pink, Luminous Orange dan Ice Silver. It’s So Me !",
-      "harga": "18.800.000",
-      "dp": "5.640.000",
-      "id": 7
-    },
-    {
-      "namaMotor": "SMASH FI",
-      "cc": "113",
-      "tahunProduksi": "2014",
-      "gambar": "https://suzukicdn.net/uploads/motorcycle/smash-thumb.png",
-      "slogan": "Motor Bebek yang Gesit, Tangguh, dan Irit",
-      "deskripsi": "Suzuki kembali melahirkan New Smash FI dengan mempertahankan keunggulan performa, ketangguhan serta konsumsi bahan bakar yang irit dengan tagline baru ‘Tarikannya Dahsyat!’.",
-      "harga": "16.100.000",
-      "dp": "4.830.000",
-      "id": 8
     }
   ],
   "agenda": [
@@ -128,6 +95,13 @@
       "sumber": "Institusi",
       "prodi": "Akuntansi D3",
       "id": 3
+    },
+    {
+      "id": 4,
+      "tahun": "",
+      "judul": "",
+      "sumber": "",
+      "prodi": ""
     }
   ],
   "usersLogin": [
@@ -155,10 +129,22 @@
       "id": 0
     },
     {
-      "motor": "SATRIA F150",
+      "motor": "GSX-R150",
       "method": "Kredit 24 Bulan",
-      "gambar": "https://suzukicdn.net/uploads/motorcycle/tamnail_satria11.png",
-      "id": 1
+      "gambar": "https://suzukicdn.net/uploads/motorcycle/Mask_Group3.png",
+      "id": 2
+    },
+    {
+      "motor": "GSX150 BANDIT",
+      "method": "Kredit 12 Bulan",
+      "gambar": "https://suzukicdn.net/uploads/motorcycle/next_2_abu.png",
+      "id": 3
+    },
+    {
+      "motor": "GSX150 BANDIT",
+      "method": "Kredit 12 Bulan",
+      "gambar": "https://suzukicdn.net/uploads/motorcycle/next_2_abu.png",
+      "id": 4
     }
   ]
 }
